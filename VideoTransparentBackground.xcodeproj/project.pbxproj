@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53DA8ACE49BB06EBB652AD76 /* Pods_VideoTransparentBackground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8B2E416889FDF840275989 /* Pods_VideoTransparentBackground.framework */; };
+		969B7F7D1EED71EA00B01D9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B7F7C1EED71EA00B01D9E /* AppDelegate.swift */; };
+		969B7F7F1EED71EA00B01D9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B7F7E1EED71EA00B01D9E /* ViewController.swift */; };
+		969B7F821EED71EA00B01D9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969B7F801EED71EA00B01D9E /* Main.storyboard */; };
+		969B7F841EED71EA00B01D9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 969B7F831EED71EA00B01D9E /* Assets.xcassets */; };
+		969B7F871EED71EA00B01D9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 969B7F851EED71EA00B01D9E /* LaunchScreen.storyboard */; };
+		969B7F8F1EED72CE00B01D9E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969B7F8E1EED72CE00B01D9E /* VideoView.swift */; };
+		969B7F911EED761700B01D9E /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 969B7F901EED761700B01D9E /* video.mp4 */; };
+		969B7F931EED768600B01D9E /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 969B7F921EED768600B01D9E /* transparent.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D8B2E416889FDF840275989 /* Pods_VideoTransparentBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoTransparentBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7BE475B7009CAA9044E074 /* Pods-VideoTransparentBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTransparentBackground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTransparentBackground/Pods-VideoTransparentBackground.debug.xcconfig"; sourceTree = "<group>"; };
+		969B7F791EED71EA00B01D9E /* VideoTransparentBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoTransparentBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		969B7F7C1EED71EA00B01D9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		969B7F7E1EED71EA00B01D9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		969B7F811EED71EA00B01D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		969B7F831EED71EA00B01D9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		969B7F861EED71EA00B01D9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		969B7F881EED71EA00B01D9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		969B7F8E1EED72CE00B01D9E /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		969B7F901EED761700B01D9E /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		969B7F921EED768600B01D9E /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
+		AABF62EEC8EB3F5C2C70E167 /* Pods-VideoTransparentBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoTransparentBackground.release.xcconfig"; path = "Pods/Target Support Files/Pods-VideoTransparentBackground/Pods-VideoTransparentBackground.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		969B7F761EED71EA00B01D9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DA8ACE49BB06EBB652AD76 /* Pods_VideoTransparentBackground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F939F489D8C13F43A296812 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A7BE475B7009CAA9044E074 /* Pods-VideoTransparentBackground.debug.xcconfig */,
+				AABF62EEC8EB3F5C2C70E167 /* Pods-VideoTransparentBackground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		969B7F701EED71EA00B01D9E = {
+			isa = PBXGroup;
+			children = (
+				969B7F7B1EED71EA00B01D9E /* VideoTransparentBackground */,
+				969B7F7A1EED71EA00B01D9E /* Products */,
+				6F939F489D8C13F43A296812 /* Pods */,
+				DE8CF4DE02241419961A3A23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		969B7F7A1EED71EA00B01D9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				969B7F791EED71EA00B01D9E /* VideoTransparentBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		969B7F7B1EED71EA00B01D9E /* VideoTransparentBackground */ = {
+			isa = PBXGroup;
+			children = (
+				969B7F921EED768600B01D9E /* transparent.png */,
+				969B7F901EED761700B01D9E /* video.mp4 */,
+				969B7F7C1EED71EA00B01D9E /* AppDelegate.swift */,
+				969B7F7E1EED71EA00B01D9E /* ViewController.swift */,
+				969B7F801EED71EA00B01D9E /* Main.storyboard */,
+				969B7F831EED71EA00B01D9E /* Assets.xcassets */,
+				969B7F851EED71EA00B01D9E /* LaunchScreen.storyboard */,
+				969B7F881EED71EA00B01D9E /* Info.plist */,
+				969B7F8E1EED72CE00B01D9E /* VideoView.swift */,
+			);
+			path = VideoTransparentBackground;
+			sourceTree = "<group>";
+		};
+		DE8CF4DE02241419961A3A23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D8B2E416889FDF840275989 /* Pods_VideoTransparentBackground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		969B7F781EED71EA00B01D9E /* VideoTransparentBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 969B7F8B1EED71EA00B01D9E /* Build configuration list for PBXNativeTarget "VideoTransparentBackground" */;
+			buildPhases = (
+				0060A8ACA826C003C6DBA5ED /* [CP] Check Pods Manifest.lock */,
+				969B7F751EED71EA00B01D9E /* Sources */,
+				969B7F761EED71EA00B01D9E /* Frameworks */,
+				969B7F771EED71EA00B01D9E /* Resources */,
+				FC4457E0D033F85BA98EAC39 /* [CP] Embed Pods Frameworks */,
+				EFD310BF23F14E1BAD332C97 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoTransparentBackground;
+			productName = VideoTransparentBackground;
+			productReference = 969B7F791EED71EA00B01D9E /* VideoTransparentBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		969B7F711EED71EA00B01D9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Andrey Gordeev (andrew8712@gmail.com)";
+				TargetAttributes = {
+					969B7F781EED71EA00B01D9E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 969B7F741EED71EA00B01D9E /* Build configuration list for PBXProject "VideoTransparentBackground" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 969B7F701EED71EA00B01D9E;
+			productRefGroup = 969B7F7A1EED71EA00B01D9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				969B7F781EED71EA00B01D9E /* VideoTransparentBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		969B7F771EED71EA00B01D9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969B7F931EED768600B01D9E /* transparent.png in Resources */,
+				969B7F871EED71EA00B01D9E /* LaunchScreen.storyboard in Resources */,
+				969B7F841EED71EA00B01D9E /* Assets.xcassets in Resources */,
+				969B7F821EED71EA00B01D9E /* Main.storyboard in Resources */,
+				969B7F911EED761700B01D9E /* video.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0060A8ACA826C003C6DBA5ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD310BF23F14E1BAD332C97 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoTransparentBackground/Pods-VideoTransparentBackground-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC4457E0D033F85BA98EAC39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VideoTransparentBackground/Pods-VideoTransparentBackground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		969B7F751EED71EA00B01D9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969B7F8F1EED72CE00B01D9E /* VideoView.swift in Sources */,
+				969B7F7F1EED71EA00B01D9E /* ViewController.swift in Sources */,
+				969B7F7D1EED71EA00B01D9E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		969B7F801EED71EA00B01D9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969B7F811EED71EA00B01D9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		969B7F851EED71EA00B01D9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				969B7F861EED71EA00B01D9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		969B7F891EED71EA00B01D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		969B7F8A1EED71EA00B01D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		969B7F8C1EED71EA00B01D9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A7BE475B7009CAA9044E074 /* Pods-VideoTransparentBackground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTransparentBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreygordeev.VideoTransparentBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		969B7F8D1EED71EA00B01D9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABF62EEC8EB3F5C2C70E167 /* Pods-VideoTransparentBackground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoTransparentBackground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreygordeev.VideoTransparentBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		969B7F741EED71EA00B01D9E /* Build configuration list for PBXProject "VideoTransparentBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969B7F891EED71EA00B01D9E /* Debug */,
+				969B7F8A1EED71EA00B01D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		969B7F8B1EED71EA00B01D9E /* Build configuration list for PBXNativeTarget "VideoTransparentBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969B7F8C1EED71EA00B01D9E /* Debug */,
+				969B7F8D1EED71EA00B01D9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 969B7F711EED71EA00B01D9E /* Project object */;
+}

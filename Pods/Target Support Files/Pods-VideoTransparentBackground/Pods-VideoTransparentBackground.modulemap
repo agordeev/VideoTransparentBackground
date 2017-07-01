@@ -1,0 +1,6 @@
+framework module Pods_VideoTransparentBackground {
+  umbrella header "Pods-VideoTransparentBackground-umbrella.h"
+
+  export *
+  module * { export * }
+}
